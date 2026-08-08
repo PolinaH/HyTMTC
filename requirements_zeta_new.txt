@@ -1,0 +1,54 @@
+python=3.10
+
+cxxfilt==0.3.0
+docutils==0.20.1
+flowcontainer==7.2
+jieba==0.42.1
+matplotlib==3.8.0
+numpy==1.26.4  # 2.1.2
+packaging==24.1
+pandas==2.2.3
+scapy==2.5.0
+scikit_learn==1.3.1
+sentencepiece==0.1.99
+setuptools==68.0.0
+six==1.16.0
+Sphinx==8.1.3
+sphinx_rtd_theme==3.0.1
+# torch==2.0.1
+# torchvision==0.15.2  # 0.15.1
+tqdm==4.65.0
+tokenizers==0.19.1  # 0.21.1
+thop==0.1.1.post2209072238
+einops==0.7.0
+einops-exts==0.0.4
+transformers==4.44.2
+mamba-ssm==2.2.6
+
+pip install cxxfilt==0.3.0 docutils==0.20.1 flowcontainer==7.2 jieba==0.42.1 matplotlib==3.8.0 numpy==1.26.4 packaging==24.1 pandas==2.2.3 scapy==2.5.0 scikit_learn==1.3.1 sentencepiece==0.1.99 six==1.16.0 Sphinx==8.1.3 sphinx_rtd_theme==3.0.1 tqdm==4.65.0 tokenizers==0.19.1 thop==0.1.1.post2209072238 einops==0.7.0 einops-exts==0.0.4 transformers==4.44.2 pudb
+
+# torch cuda对应版本：https://pytorch.org/get-started/previous-versions/
+#torch==2.1.1
+torch==2.1.1+cu121 torchvision==0.16.1+cu121 torchaudio==2.1.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+
+apt-get install wireshark tshark
+
+# 安装gcc11
+conda install -c conda-forge gcc=11 gxx=11 -y
+
+# mamba-ssm版本2.0.4
+# 先从https://github.com/state-spaces/mamba下载mamba-2.0.4.zip文件，解压到目录，修改文件命为mamba_ssm
+cd mamba_ssm
+# 常规安装
+pip install . --no-build-isolation
+# 开发者模式安装，对源代码的修改会立即反映在运行环境中
+pip install -e . --no-build-isolation
+
+# an efficient implementation of a simple causal Conv1d layer used inside the Mamba block
+# 如果能连上github：
+# pip install https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.5.0.post5/causal_conv1d-1.5.0.post5+cu12torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+# 如果连不上github，先wget手动下载文件后传到服务器上，再安装：
+# wget https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.5.0.post5/causal_conv1d-1.5.0.post5+cu12torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+# pip install causal_conv1d-1.5.0.post5+cu12torch2.1cxx11abiFALSE-cp310-cp310-linux_x86_64.whl
+
+
