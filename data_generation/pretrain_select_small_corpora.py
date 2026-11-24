@@ -16,7 +16,7 @@ if __name__ == "__main__":
     parser = config_args(parser)
     config_args = parser.parse_args()
 
-    root = '/workspace/data1/hym/TrafficFormer'
+    root = '/workspace/data1/hym/HyTMTC'
     dataset = 'ISCX_NonVPN_2016'
     cnt_max = 100000
     select_interval =3  # 每select_interval条流中选取1条流

@@ -35,74 +35,31 @@ if __name__ == "__main__":
     CUDA_VISIBLE_DEVICES = '0'  # '0'
 
     # 10.112.173.89
-    root = '/workspace/data1/hym/TrafficFormer'
-    # 10.112.143.54
-    #root = '/workspace/hym/TrafficFormer'
+    root = '/workspace/data1/hym/HyTMTC'
 
-    # !!!!!!!! model_config_path和encoder需要同步修改 !!!!!!!!
-    # model_config_path                      embedding       encoder        target
-    # 'models/bert/base_config.json'         'word_pos_seg'  'transformer'  'bertflow'
-    # 'models/jamba/jamba_zeta_config.json'  'jamba'         'jamba_zeta'    'jamba'
-    # 'models/jamba/jamba_config.json'       'jamba'         'jamba'         'jamba'
     model_config_path = 'models/jamba/jamba_config.json'
 
-    # !!!!!!!! 修改pretrain_dataset !!!!!!!!
     corpora_path = "corpora_direction_datasets_1"
     pretrain_dataset = 'Browser_CICMalAnal2017_Benign_CICMalAnal2017_Malware_CICIOT2023_Benign_CICIOT2023_Malware_ISCX_NonVPN_2016'
 
     vocab_file = f"{root}/{corpora_path}/{pretrain_dataset}/" \
                  f"sorted_corpora_gram_vocab_{pretrain_dataset}_length_direction.txt"
 
-    # !!!!!!!! 修改processed_datasets路径 !!!!!!!!
-    # processed_datasets路径
-    # processed_datasets_jamba_sorted_vocab_test_2:测试数据集，前5个包+方向长度信息
-    # processed_datasets_jamba_sorted_vocab_direction_1:前5个包+方向长度信息
     processed_datasets = f"{root}/processed_datasets_jamba_sorted_vocab_direction_1"
 
     # training
-    if config_args.dataset == "DataCon2021":
-        train_file = "train_dataset.tsv"
-        valid_file = "valid_dataset.tsv"
-        test_file = "test_dataset.tsv"
-    elif config_args.dataset == "DataCon2020":
-        if config_args.train_num == 3000:
-            train_file = f"train_dataset.tsv"
-        else:
-            train_file = f"train_dataset_{config_args.train_num}.tsv"
-        valid_file = "valid_dataset.tsv"
-        test_file = "test_dataset.tsv"
-    elif config_args.bin:
-        train_file = "train_bin_dataset_500.tsv"
-        valid_file = "valid_bin_dataset_50.tsv"
-        test_file = "test_bin_dataset_50.tsv"
-    else:
-        train_file = f"train_dataset_{config_args.train_num}.tsv"
-        valid_file = "valid_dataset_50.tsv"
-        test_file = "test_dataset_50.tsv"
+    train_file = f"train_dataset_{config_args.train_num}.tsv"
+    valid_file = "valid_dataset_50.tsv"
+    test_file = "test_dataset_50.tsv"
 
     if config_args.only_val_test:
-        if config_args.dataset == "DataCon2021":
-            train_path = None
-            valid_path = f"{processed_datasets}/{config_args.dataset}/" \
-                         f"{config_args.part}/dataset/{valid_file}"
-            test_path = f"{processed_datasets}/{config_args.dataset}/" \
-                        f"{config_args.part}/dataset/{test_file}"
-        else:
-            train_path = None
-            valid_path = f"{processed_datasets}/{config_args.dataset}/dataset/{valid_file}"
-            test_path = f"{processed_datasets}/{config_args.dataset}/dataset/{test_file}"
+        train_path = None
+        valid_path = f"{processed_datasets}/{config_args.dataset}/dataset/{valid_file}"
+        test_path = f"{processed_datasets}/{config_args.dataset}/dataset/{test_file}"
     else:
-        if config_args.dataset == "DataCon2021":
-            train_path = f"{processed_datasets}/{config_args.dataset}/" \
-                         f"{config_args.part}/dataset/{train_file}"
-            valid_path = f"{processed_datasets}/{config_args.dataset}/" \
-                         f"{config_args.part}/dataset/{valid_file}"
-            test_path = f"{processed_datasets}/{config_args.dataset}/" \
-                        f"{config_args.part}/dataset/{test_file}"
-        else:
-            train_path = f"{processed_datasets}/{config_args.dataset}/dataset/{train_file}"
-            valid_path = f"{processed_datasets}/{config_args.dataset}/dataset/{valid_file}"
-            test_path = f"{processed_datasets}/{config_args.dataset}/dataset/{test_file}"
+        train_path = f"{processed_datasets}/{config_args.dataset}/dataset/{train_file}"
+        valid_path = f"{processed_datasets}/{config_args.dataset}/dataset/{valid_file}"
+        test_path = f"{processed_datasets}/{config_args.dataset}/dataset/{test_file}"
 
     pretrained_model_folder = f"{root}/models/pre_trained_models"
     if config_args.no_use_self_attn:
@@ -111,11 +68,6 @@ if __name__ == "__main__":
         no_use_self_attn = 'False'
 
     if config_args.pretrained_model_file == '':
-        # --jamba_atm_ratio 13 python慢速版
-        #pretrained_model_file = "2025-06-12_22/2025-06-12_22_pre-trained_model_Browser_CICMalAnal2017_Benign_CICMalAnal2017_Malware_CICIOT2023_Benign_CICIOT2023_Malware_ISCX_NonVPN_2016-12000.bin"
-        # 官方mamba快速版
-        #pretrained_model_file = "2025-12-01_7/2025-12-01_7_pre-trained_model_Browser_CICMalAnal2017_Benign_CICMalAnal2017_Malware_CICIOT2023_Benign_CICIOT2023_Malware_ISCX_NonVPN_2016-42000.bin"
-        # 251210安装好causal-conv1d后版本
         pretrained_model_file = '2025-12-11_14/2025-12-11_14_pre-trained_model_Browser_CICMalAnal2017_Benign_CICMalAnal2017_Malware_CICIOT2023_Benign_CICIOT2023_Malware_ISCX_NonVPN_2016-42000.bin'
     else:
         pretrained_model_file = config_args.pretrained_model_file
@@ -140,29 +92,8 @@ if __name__ == "__main__":
         epochs_num = 50  # 50
     earlystop = 20
     report_steps = 1
-    # batch_size是总batch size，若是多卡训练，每个卡的batch size=batch_size/卡数量
     batch_size = 128  # 128
     learning_rate = 2.5e-4  # 2.5e-4
-    '''
-    if config_args.train_num >= 50:
-        batch_size = 128  # 128
-        learning_rate = 2.5e-4
-    elif config_args.train_num == 20 or config_args.train_num == 30:
-        batch_size = 64  # 128
-        learning_rate = 1.2e-4
-    elif config_args.train_num == 10:
-        batch_size = 32  # 128
-        learning_rate = 0.5e-4
-    elif config_args.train_num == 5:
-        batch_size = 16  # 128
-        learning_rate = 0.25e-4
-    elif config_args.train_num == 1:
-        batch_size = 4  # 128
-        learning_rate = 0.06e-4
-    else:
-        batch_size = 128  # 128
-        learning_rate = 2.5e-4
-    '''
 
     embedding = config_args.embedding  # 'jamba_direction_length' 'jamba'
     encoder = 'jamba'  # 'transformer'
@@ -204,9 +135,6 @@ if __name__ == "__main__":
     os.system(cmd)
 
     # 如果需要args指定pretrained_model_file，使用--pretrained_model_file
-    # 如果warm up阶段（epoch前百分之20）只解冻fc层，使用--warm_up_just_unfreeze_fc True
-    # 指定训练集样本数量--train_num，选择DataCon2020时，全部训练集数量是3000（每类）
-    # 指定DataCon2021选择part1或者part2 --part
 
     # PYTHONPATH='.' python fine_tuning/config_run_classifier_direction_jamba.py --jamba_atm_ratio --embedding --dataset --train_num
 

@@ -5,9 +5,6 @@ from uer.layers.relative_position_embedding import RelativePositionEmbedding
 from uer.layers.jamba_block_official_mamba import JambaBlock17, JambaBlock15, JambaBlock13, JambaEncoder_onlyMamba_block, \
     JambaEncoder_onlyMambaMOE_block, JambaEncoder_onlyTransformer_block, JambaEncoder_onlyTransformerMoE_block, \
     JambaEncoder_onlyLSTM_block, JambaEncoder_onlyLSTMMOE_block, JambaBlock_LSTM_Transformer
-'''
-from uer.layers.jamba_block import JambaBlock17, JambaBlock15, JambaBlock13
-'''
 import pudb
 
 
@@ -31,11 +28,7 @@ class JambaEncoder(nn.Module):
         if self.factorized_embedding_parameterization:
             self.linear = nn.Linear(args.emb_size, args.hidden_size)
 
-        if self.jamba_atm_ratio == 17:
-            JambaChoice = JambaBlock17
-        elif self.jamba_atm_ratio == 15:
-            JambaChoice = JambaBlock15
-        elif self.jamba_atm_ratio == 13:
+        if self.jamba_atm_ratio == 13:
             JambaChoice = JambaBlock13
         else:
             raise ValueError(f"The ratio of attention-to-Mamba layers "

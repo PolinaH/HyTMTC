@@ -65,7 +65,7 @@ def build_vocab_no_training(vocab_path):
 
 
 if __name__ == "__main__":
-    root = '/workspace/data1/hym/TrafficFormer'
+    root = '/workspace/data1/hym/HyTMTC'
     corpora_bigram_path = f"{root}/data_generation/test_corpora_bigram.txt"
     trained_tokenizer_path = f"{root}/data_generation/test_corpora_bigram_trained_tokenizer.json"
     vocab_path = f"{root}/data_generation/test_corpora_bigram_vocab.txt"

@@ -16,7 +16,7 @@ if __name__ == "__main__":
     parser = config_args(parser)
     config_args = parser.parse_args()
 
-    root = "/workspace/data1/hym/TrafficFormer"
+    root = "/workspace/data1/hym/HyTMTC"
     corpora_folder = f"{root}/{config_args.corpora_path}"
     datasetname = "Browser_CICMalAnal2017_Benign_CICMalAnal2017_Malware_CICIOT2023_Benign_CICIOT2023_Malware_ISCX_NonVPN_2016"
     corpora_file_path = f"{corpora_folder}/{datasetname}/corpora_gram_{datasetname}_all.txt"

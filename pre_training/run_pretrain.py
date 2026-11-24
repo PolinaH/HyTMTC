@@ -23,17 +23,9 @@ if __name__ == "__main__":
     config_args = parser.parse_args()
 
     # 10.112.173.89
-    root = '/workspace/data1/hym/TrafficFormer'
-    # 10.160.4.245
-    #root = '/workspace/data2/hym/TrafficFormer'
+    root = '/workspace/data1/hym/HyTMTC'
 
     file = f"{root}/pre_training/pretrain.py"
-    # !!!!!!!! model_config_path和encoder需要同步修改 !!!!!!!!
-    # model_config_path                      embedding       encoder        target
-    # 'models/bert/base_config.json'         'word_pos_seg'  'transformer'  'bertflow'
-    # 'models/jamba/jamba_zeta_config.json'  'jamba'         'jamba_zeta'    'jamba'
-    # 'models/jamba/jamba_config.json'       'jamba'         'jamba'         'jamba'
-    model_config_path = 'models/jamba/jamba_config.json'  # 'models/bert/base_config.json'
     dataset = 'Browser_CICMalAnal2017_Benign_CICMalAnal2017_Malware_CICIOT2023_Benign_CICIOT2023_Malware_ISCX_NonVPN_2016'  # 'medbiot_normal'
 
     #-------------------------------------------------------------------------
@@ -58,20 +50,10 @@ if __name__ == "__main__":
     world_size = 2  # 2
     gpu_ranks = '0 1'  # '0 1'
     learning_rate = 6e-4
-    total_steps = 42000  # 42000步与之前在八卡服务器上训练12000步效果一样
+    total_steps = 42000
     save_checkpoint_steps = 6000  # 10000
     report_steps = 20
     batch_size = 128  # 64
-
-    # 10.160.4.245
-    #CUDA_VISIBLE_DEVICES = '0,1,2,3,4,5,6'  # '0,1,2,3,4,5,6,7'
-    #world_size = 7  # 8
-    #gpu_ranks = '0 1 2 3 4 5 6'  # '0 1 2 3 4 5 6 7'
-    #learning_rate = 2.1e-3  # 1.2e-3
-    #total_steps = 12000  # 3000
-    #save_checkpoint_steps = 500  # 5000
-    #report_steps = 5
-    #batch_size = 128  # 64
 
     scheduler = 'cosine'
 

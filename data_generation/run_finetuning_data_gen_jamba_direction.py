@@ -73,7 +73,7 @@ def args_definition():
 
 if __name__ == "__main__":
     # if the traffic is the pacp type, pcapng_path == pcap_path
-    root = '/workspace/data1/hym/TrafficFormer'
+    root = '/workspace/data1/hym/HyTMTC'
     # 如果is_dir_refer_class设置为False，
     # 则在第一遍执行程序后(已经变成了一个目录代表1类)，需要将is_dir_refer_class的值改为True
     datasetInfo = {'USTC_TFC2016':{'pcap_exist':True,'is_dir_refer_class':True,'num_category':18},

@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa2e926b-a6d2-4c72-82b6-e081e6d30a4d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/experimental/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/experimental/triton/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/experimental/triton/activations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/experimental/triton/activations/activations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/experimental/triton/activations/flash_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/experimental/triton/activations/functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/experimental/triton/triton_modules/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/experimental/triton/triton_modules/flash_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/experimental/triton/triton_modules/linear_proj.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/BEiT3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/LongNet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/Magneto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/andromeda.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/gpt4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/kosmos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/llama.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/max_vit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/mega_vit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/mm_mamba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/navit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/palme.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/models/vit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/moe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/multi_query_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/muon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/agent_attn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/attend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/cross_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/cross_attn_images.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/dilated_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/flash_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/linear_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/linear_attn_l.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/linearized_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/local_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/local_attention_mha.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/mixture_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/multi_grouped_attn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/multi_modal_causal_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/multi_modal_cross_attn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/multihead_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/multiquery_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/scalable_img_self_attn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/shaped_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/sparse_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/spatial_linear_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/attention/xc_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/biases/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/biases/alibi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/biases/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/biases/dynamic_position_bias.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/biases/relative_position_bias.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/abc_pos_emb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/embedding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/mi_rope.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/multiway_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/nominal_embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/patch_embedding.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/pi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/positional.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/positional_interpolation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/qfsp_embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/qft_embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/rope.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/scaled_sinusoidal_embeddings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/sine_positional.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/sinusoidal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/truncated_rope.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/vis_lang_emb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/vision_emb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/xpos_relative_position.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/embeddings/yarn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/masks/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/masks/attn_masks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/masks/block_diagonal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/_activations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/adaptive_conv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/adaptive_gating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/adaptive_layernorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/adaptive_parameter_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/adaptive_rmsnorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/add_norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/alr_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/attn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/audio_to_text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/avg_model_merger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/batched_dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/block_butterfly_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/blockdiag_butterfly.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/chan_layer_norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/clex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/clip_bottleneck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/cnn_text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/cog_vlm_two_adapter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/combined_linear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/conv_bn_relu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/conv_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/convnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/cope.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/crome_adapter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/cross_embed_layer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/cross_modal_reparametization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/decision_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/deepseek_moe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/dense_connect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/diffusion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/droppath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/dual_path_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/dyna_conv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/dynamic_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/dynamic_routing_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/embedding_to_grid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/ether.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/evlm_xattn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/exo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/expand.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/expand_channels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/expert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/fast_text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/feedback_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/feedforward.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/feedforward_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/film.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/film_conditioning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/film_efficient_metb3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/flash_conv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/flatten_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/flex_conv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/flexible_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/flow_matching.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/flow_transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/fractoral_norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/fractorial_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/freeze_layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/fused_dropout_add.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/fused_dropout_layernom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/fused_gelu_dense.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/fusion_ffn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/g_shard_moe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/gated_cnn_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/gated_residual_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/gill_mapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/glu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/gru_gating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/h3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/hebbian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/highway_layer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/image_projector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/image_to_text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/img_or_video_to_time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/img_patch_embed.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/img_reshape.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/itca.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/kv_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/kv_cache_update.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/lambda_mask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/lang_conv_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/laser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/layer_scale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/layernorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/leaky_relu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/log_ff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/lora.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/mbconv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/mixtape.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/mixtral_expert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/mlp_mixer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/mm_adapter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/mm_fusion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/mm_layernorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/mm_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/modality_adaptive_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/moe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/moe_router.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/monarch_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/mr_adapter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/multi_input_multi_output.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/multi_layer_key_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/multi_scale_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/multiclass_label.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/multimodal_concat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/nearest_upsample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/nebula.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/nfn_stem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/norm_fractorals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/norm_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/omnimodal_fusion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/p_scan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/palo_ldp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/parallel_wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/patch_embedding_layer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/patch_img.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/patch_linear_flatten.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/patch_video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/peg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/perceiver_layer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/perceiver_resampler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/pixel_shuffling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/poly_expert_fusion_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/polymorphic_activation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/polymorphic_neuron.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/prenorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/pretrained_t_five.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/proj_then_softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/pulsar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/pyro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/qformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/qkv_norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/quantized_layernorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/query_proposal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/recurrent_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/recursive_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/relu_squared.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/res_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/residual.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/return_loss_text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/rms_norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/rnn_nlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/s4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/scale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/scale_norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/scaled_sinusoidal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/scalenorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/shift_tokens.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/shufflenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/sig_lip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/sig_lip_loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/sigmoid_attn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/simple_attention.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/simple_feedforward.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/simple_lstm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/simple_mamba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/simple_res_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/simple_resblock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/simple_rmsnorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/simple_rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/skip_connect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/skipconnection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/slerp_model_merger.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/snake_act.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/sp_act.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/space_time_unet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/spacial_transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/sparc_alignment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/sparq_attn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/sparse_moe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/sparse_token_integration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/spatial_downsample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/spatial_transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/splines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/squeeze_excitation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/ssm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/ssm_language.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/stoch_depth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/stochastic_depth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/subln.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/super_resolution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/swarmalator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/swiglu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/tensor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/tensor_shape.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/tensor_to_int.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/text_scene_fusion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/text_video_fuse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/time_up_sample.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/to_logits.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/token_learner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/token_mixer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/token_shift.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/top_n_gating.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/transformations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/triple_skip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/triton_rmsnorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/u_mamba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/unet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/v_layernorm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/v_pool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/video_autoencoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/video_diffusion_modules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/video_to_tensor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/video_to_text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/vision_mamba.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/vision_weighted_permute_mlp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/visual_expert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/vit_denoiser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/vss_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/ws_conv2d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/xmoe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/xmoe/global_groups.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/xmoe/moe_layer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/xmoe/routing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/modules/yolo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/absmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/bitlinear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/half_bit_linear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/lfq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/niva.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/qlora.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/qmoe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/quick.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/random_proj_quan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/residual_vq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/nn/quant/ste.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/__Init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/absmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/async_softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/dilated_attn_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/einops_from_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/einops_poly.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/expand.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/laplace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/misc_act.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/mm_rearranges.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/mm_softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/mos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/nonlinear.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/sparsemax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/ops/unitwise_norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/all_new_optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/batched_optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/decoupled_lion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/decoupled_optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/decoupled_sophia.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/gradient_ascent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/gradient_equillibrum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/lion8b.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/muon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/parallel_gradient_descent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/optim/stable_adam.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/actor_critic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/dpo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/hindsight_replay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/language_reward.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/ppo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/priortized_replay_buffer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/priortized_rps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/rest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/reward_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/sumtree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/rl/vision_model_rl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/auto_regressive_wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/clip_encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/efficient_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/encoder_decoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/hierarchical_transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/local_transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/multi_modal_projector.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/simple_transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/simple_vision_encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/transformer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/structs/transformer_block.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/training/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/training/activation_checkpoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/training/dataloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/training/fsdp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/training/galore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/training/hive_trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/training/parallel_wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/training/scheduler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/training/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/benchmark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/cuda_memory_wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/cuda_wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/disable_logging.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/enforce_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/img_to_tensor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/lazy_loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/module_device.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/params.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/save_load_wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/text_to_tensor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zeta/utils/verbose_execution.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2u9dJ7sQGBRQkx5OJtiwkqKY88a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "D:/PythonProjects/HyTMTC_github",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="run_pretrain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TrafficFormer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pre_training" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pre_training/run_pretrain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_pretrain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa2e926b-a6d2-4c72-82b6-e081e6d30a4d" name="Changes" comment="" />
+      <created>1741664656117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741664656117</updated>
+      <workItem from="1741664657723" duration="2417000" />
+      <workItem from="1741688145647" duration="7623000" />
+      <workItem from="1741744864998" duration="25027000" />
+      <workItem from="1741831352810" duration="31639000" />
+      <workItem from="1741915097972" duration="10932000" />
+      <workItem from="1741940881012" duration="9292000" />
+      <workItem from="1742025230066" duration="3955000" />
+      <workItem from="1742180208759" duration="22653000" />
+      <workItem from="1742261110545" duration="4219000" />
+      <workItem from="1742350005724" duration="3135000" />
+      <workItem from="1742434918289" duration="13193000" />
+      <workItem from="1742522283147" duration="7798000" />
+      <workItem from="1742779886587" duration="7915000" />
+      <workItem from="1742866181195" duration="1191000" />
+      <workItem from="1742905445887" duration="3450000" />
+      <workItem from="1742953275387" duration="10176000" />
+      <workItem from="1743063302256" duration="11299000" />
+      <workItem from="1743126348716" duration="1082000" />
+      <workItem from="1743233189226" duration="1260000" />
+      <workItem from="1743384757643" duration="7476000" />
+      <workItem from="1743402457806" duration="17473000" />
+      <workItem from="1743471390982" duration="11869000" />
+      <workItem from="1743557108443" duration="22799000" />
+      <workItem from="1743645233970" duration="5935000" />
+      <workItem from="1743860149628" duration="3387000" />
+      <workItem from="1743937592993" duration="6030000" />
+      <workItem from="1743989349833" duration="23817000" />
+      <workItem from="1744077705410" duration="302000" />
+      <workItem from="1744078128077" duration="20973000" />
+      <workItem from="1744161878112" duration="19482000" />
+      <workItem from="1744248622486" duration="14932000" />
+      <workItem from="1744291673878" duration="2689000" />
+      <workItem from="1744687339794" duration="15988000" />
+      <workItem from="1744766062984" duration="29950000" />
+      <workItem from="1744853883910" duration="12760000" />
+      <workItem from="1744889688553" duration="2644000" />
+      <workItem from="1744942925033" duration="6713000" />
+      <workItem from="1744979939446" duration="5705000" />
+      <workItem from="1745039714100" duration="20275000" />
+      <workItem from="1745200011547" duration="25011000" />
+      <workItem from="1745285014829" duration="24898000" />
+      <workItem from="1745377090067" duration="14530000" />
+      <workItem from="1745461202467" duration="3224000" />
+      <workItem from="1745548422093" duration="7049000" />
+      <workItem from="1745567844799" duration="1856000" />
+      <workItem from="1745585385367" duration="8044000" />
+      <workItem from="1745594643723" duration="1432000" />
+      <workItem from="1745644467507" duration="4281000" />
+      <workItem from="1745728673850" duration="3499000" />
+      <workItem from="1745817042475" duration="598000" />
+      <workItem from="1745907801789" duration="699000" />
+      <workItem from="1745992883800" duration="599000" />
+      <workItem from="1746088080895" duration="6810000" />
+      <workItem from="1746167408201" duration="17113000" />
+      <workItem from="1746252108227" duration="24891000" />
+      <workItem from="1746336049966" duration="22602000" />
+      <workItem from="1746429529961" duration="6419000" />
+      <workItem from="1746520532294" duration="5749000" />
+      <workItem from="1746581649850" duration="7783000" />
+      <workItem from="1746669793712" duration="16958000" />
+      <workItem from="1746754600074" duration="2731000" />
+      <workItem from="1746757380843" duration="10681000" />
+      <workItem from="1746786023294" duration="12196000" />
+      <workItem from="1746855326263" duration="20089000" />
+      <workItem from="1746966894209" duration="1747000" />
+      <workItem from="1747015212209" duration="14716000" />
+      <workItem from="1747099257619" duration="13457000" />
+      <workItem from="1747186952345" duration="5640000" />
+      <workItem from="1747272761663" duration="16851000" />
+      <workItem from="1747360739790" duration="5596000" />
+      <workItem from="1747456500148" duration="595000" />
+      <workItem from="1747618665937" duration="659000" />
+      <workItem from="1747968234815" duration="1457000" />
+      <workItem from="1748077368065" duration="11441000" />
+      <workItem from="1748223944809" duration="21562000" />
+      <workItem from="1748307342102" duration="17204000" />
+      <workItem from="1748397367146" duration="13861000" />
+      <workItem from="1748483452616" duration="14241000" />
+      <workItem from="1748567590545" duration="8911000" />
+      <workItem from="1748605418970" duration="1812000" />
+      <workItem from="1748693753508" duration="2733000" />
+      <workItem from="1748854763413" duration="1006000" />
+      <workItem from="1748915595487" duration="11550000" />
+      <workItem from="1749000251926" duration="13633000" />
+      <workItem from="1749039948032" duration="1829000" />
+      <workItem from="1749087380106" duration="20232000" />
+      <workItem from="1749177395655" duration="9216000" />
+      <workItem from="1749272628633" duration="21272000" />
+      <workItem from="1749364852343" duration="17556000" />
+      <workItem from="1749431724156" duration="21797000" />
+      <workItem from="1749518699564" duration="16947000" />
+      <workItem from="1749612915614" duration="9015000" />
+      <workItem from="1749691175290" duration="29959000" />
+      <workItem from="1749779304792" duration="11099000" />
+      <workItem from="1749878312958" duration="3196000" />
+      <workItem from="1749889555625" duration="324000" />
+      <workItem from="1749889883735" duration="1680000" />
+      <workItem from="1750038235551" duration="658000" />
+      <workItem from="1750040685151" duration="13946000" />
+      <workItem from="1750124252274" duration="11323000" />
+      <workItem from="1750679304668" duration="1539000" />
+      <workItem from="1750730273542" duration="364000" />
+      <workItem from="1750752000169" duration="561000" />
+      <workItem from="1750754019284" duration="1165000" />
+      <workItem from="1750767628581" duration="680000" />
+      <workItem from="1750909218925" duration="39000" />
+      <workItem from="1750922229370" duration="1287000" />
+      <workItem from="1750923585874" duration="523000" />
+      <workItem from="1750924442746" duration="63000" />
+      <workItem from="1750924615581" duration="307000" />
+      <workItem from="1750925601902" duration="784000" />
+      <workItem from="1750940921344" duration="1031000" />
+      <workItem from="1750993799500" duration="50000" />
+      <workItem from="1750996004190" duration="1086000" />
+      <workItem from="1751205152333" duration="1970000" />
+      <workItem from="1751275496286" duration="656000" />
+      <workItem from="1751353124446" duration="611000" />
+      <workItem from="1751358400220" duration="853000" />
+      <workItem from="1751435258139" duration="363000" />
+      <workItem from="1752112448809" duration="394000" />
+      <workItem from="1752131794015" duration="413000" />
+      <workItem from="1752133437083" duration="36000" />
+      <workItem from="1752314982271" duration="103000" />
+      <workItem from="1752497182472" duration="2434000" />
+      <workItem from="1752502353892" duration="1328000" />
+      <workItem from="1752559582957" duration="12000" />
+      <workItem from="1753100523937" duration="2552000" />
+      <workItem from="1753151926470" duration="3651000" />
+      <workItem from="1753234777435" duration="9527000" />
+      <workItem from="1753358538462" duration="2000" />
+      <workItem from="1753523340860" duration="3501000" />
+      <workItem from="1754905645219" duration="2342000" />
+      <workItem from="1754986532814" duration="5354000" />
+      <workItem from="1755237142131" duration="1198000" />
+      <workItem from="1755326346430" duration="1991000" />
+      <workItem from="1755595657791" duration="599000" />
+      <workItem from="1755602475999" duration="9884000" />
+      <workItem from="1755667293967" duration="7985000" />
+      <workItem from="1755753321612" duration="5418000" />
+      <workItem from="1755837831759" duration="5728000" />
+      <workItem from="1755927843183" duration="2131000" />
+      <workItem from="1756022196288" duration="7723000" />
+      <workItem from="1756099899968" duration="7745000" />
+      <workItem from="1756184315424" duration="4587000" />
+      <workItem from="1756287278711" duration="3092000" />
+      <workItem from="1756364798536" duration="14182000" />
+      <workItem from="1756443929419" duration="9834000" />
+      <workItem from="1756529137547" duration="12903000" />
+      <workItem from="1756623117745" duration="5958000" />
+      <workItem from="1756797191484" duration="604000" />
+      <workItem from="1756877208483" duration="10411000" />
+      <workItem from="1756951734422" duration="4982000" />
+      <workItem from="1757226304443" duration="1300000" />
+      <workItem from="1757246220399" duration="1995000" />
+      <workItem from="1757991957555" duration="2841000" />
+      <workItem from="1758281705021" duration="6894000" />
+      <workItem from="1758525075889" duration="752000" />
+      <workItem from="1758798060582" duration="1563000" />
+      <workItem from="1758854955787" duration="908000" />
+      <workItem from="1760344821310" duration="599000" />
+      <workItem from="1760430704576" duration="143000" />
+      <workItem from="1761791024736" duration="119000" />
+      <workItem from="1761880613206" duration="40000" />
+      <workItem from="1761881507193" duration="1325000" />
+      <workItem from="1762007337791" duration="4163000" />
+      <workItem from="1762013720424" duration="620000" />
+      <workItem from="1762220951495" duration="1935000" />
+      <workItem from="1762224630330" duration="2333000" />
+      <workItem from="1762484526470" duration="778000" />
+      <workItem from="1762744697413" duration="269000" />
+      <workItem from="1762864525859" duration="1054000" />
+      <workItem from="1762936978159" duration="65000" />
+      <workItem from="1763087174014" duration="837000" />
+      <workItem from="1763344561922" duration="15666000" />
+      <workItem from="1763384758238" duration="4176000" />
+      <workItem from="1763431324768" duration="7389000" />
+      <workItem from="1763444602258" duration="2214000" />
+      <workItem from="1763465885054" duration="9709000" />
+      <workItem from="1763535118145" duration="6394000" />
+      <workItem from="1763603106841" duration="7818000" />
+      <workItem from="1763690097733" duration="1887000" />
+      <workItem from="1763725339293" duration="5453000" />
+      <workItem from="1763788961362" duration="4854000" />
+      <workItem from="1763989734135" duration="11678000" />
+      <workItem from="1764040958338" duration="7085000" />
+      <workItem from="1764127990999" duration="984000" />
+      <workItem from="1764206629892" duration="8666000" />
+      <workItem from="1764247310084" duration="4186000" />
+      <workItem from="1764301174364" duration="20772000" />
+      <workItem from="1764392012319" duration="34561000" />
+      <workItem from="1764479778554" duration="16591000" />
+      <workItem from="1764554290206" duration="16600000" />
+      <workItem from="1764595783428" duration="4413000" />
+      <workItem from="1764640547697" duration="6292000" />
+      <workItem from="1764676862920" duration="3919000" />
+      <workItem from="1764732310723" duration="6797000" />
+      <workItem from="1764763729689" duration="7209000" />
+      <workItem from="1764830820533" duration="509000" />
+      <workItem from="1764934700650" duration="7709000" />
+      <workItem from="1764993996932" duration="15378000" />
+      <workItem from="1765120225368" duration="669000" />
+      <workItem from="1765202383845" duration="4132000" />
+      <workItem from="1765248322507" duration="8753000" />
+      <workItem from="1765287871599" duration="1380000" />
+      <workItem from="1765332028142" duration="14896000" />
+      <workItem from="1765370682488" duration="6031000" />
+      <workItem from="1765418693621" duration="16469000" />
+      <workItem from="1765462699268" duration="5195000" />
+      <workItem from="1765514702974" duration="29751000" />
+      <workItem from="1765600746033" duration="19985000" />
+      <workItem from="1765703698481" duration="2480000" />
+      <workItem from="1765764556681" duration="3412000" />
+      <workItem from="1765791655965" duration="27000" />
+      <workItem from="1765869168282" duration="807000" />
+      <workItem from="1765954636245" duration="19000" />
+      <workItem from="1765955213998" duration="784000" />
+      <workItem from="1766546438998" duration="8811000" />
+      <workItem from="1766627245392" duration="8140000" />
+      <workItem from="1766667154047" duration="10534000" />
+      <workItem from="1766731530552" duration="5213000" />
+      <workItem from="1766812640159" duration="2235000" />
+      <workItem from="1766928598971" duration="3159000" />
+      <workItem from="1766979709177" duration="24000" />
+      <workItem from="1766986581995" duration="806000" />
+      <workItem from="1767355439114" duration="34000" />
+      <workItem from="1767355669158" duration="13000" />
+      <workItem from="1767438551061" duration="53000" />
+      <workItem from="1769755192018" duration="763000" />
+      <workItem from="1770193579200" duration="866000" />
+      <workItem from="1770215362566" duration="1269000" />
+      <workItem from="1770217642242" duration="370000" />
+      <workItem from="1770994782984" duration="709000" />
+      <workItem from="1770996550719" duration="16000" />
+      <workItem from="1780555287937" duration="227000" />
+      <workItem from="1780555588405" duration="2775000" />
+      <workItem from="1780630041283" duration="5785000" />
+      <workItem from="1780741431016" duration="9894000" />
+      <workItem from="1780888220075" duration="13326000" />
+      <workItem from="1780929318108" duration="3010000" />
+      <workItem from="1781061344188" duration="9000" />
+      <workItem from="1781162309082" duration="4452000" />
+      <workItem from="1781231810154" duration="5066000" />
+      <workItem from="1781329232576" duration="8219000" />
+      <workItem from="1781448115706" duration="2063000" />
+      <workItem from="1781490766248" duration="1345000" />
+      <workItem from="1781591945809" duration="2298000" />
+      <workItem from="1781951256022" duration="7645000" />
+      <workItem from="1782042594546" duration="4880000" />
+      <workItem from="1782192754978" duration="736000" />
+      <workItem from="1786173971832" duration="3428000" />
+      <workItem from="1786177447717" duration="2487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TrafficFormer$run_pretrain.coverage" NAME="run_pretrain Coverage Results" MODIFIED="1745328616430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pre_training" />
+  </component>
+</project>

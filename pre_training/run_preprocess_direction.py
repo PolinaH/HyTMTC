@@ -4,7 +4,7 @@ import os
 
 if __name__ == "__main__":
     file = "pre_training/preprocess_direction.py"
-    root = '/workspace/data1/hym/TrafficFormer'
+    root = '/workspace/data1/hym/HyTMTC'
 
     # ！！！！！！！注意修改参数和路径！！！！！！！
     dataset = 'Browser_CICMalAnal2017_Benign_CICMalAnal2017_Malware_CICIOT2023_Benign_CICIOT2023_Malware_ISCX_NonVPN_2016'

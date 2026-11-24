@@ -137,12 +137,7 @@ def args_definition():
 
 
 if __name__ == "__main__":
-    root = '/workspace/data1/hym/TrafficFormer'
-    datasetInfo = {'USTC_TFC2016':{'pcap_exist':True,'is_dir_refer_class':True,'num_category':2},
-                   'USTC_TFC2016_small':{'pcap_exist':True,'is_dir_refer_class':True,'num_category':2},
-                   'ISCX_VPN_2016': {'pcap_exist': True, 'is_dir_refer_class': True, 'num_category': 14},
-                   'ISCX_VPN_2016_small': {'pcap_exist': True, 'is_dir_refer_class': True, 'num_category': 2}}
-
+    root = '/workspace/data1/hym/HyTMTC'
     args = args_definition()
 
     #logging = logging_definition(args, root)

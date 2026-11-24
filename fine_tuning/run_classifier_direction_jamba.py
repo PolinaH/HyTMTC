@@ -33,67 +33,6 @@ warnings.filterwarnings("ignore")
 sys.path.append(os.getcwd())
 
 
-def visualize_tsne(final_output, y_target, save_path="tsne_visualization.png"):
-    """
-    final_output: Tensor on CPU, shape (B, L, D)
-    y_target: list of length B
-    """
-
-    # ---- Step 1: 每个样本从 L×D -> D (mean pooling) ----
-    if final_output.dim() == 3:
-        final_output = final_output.mean(dim=1)  # shape: (B, D)
-
-    # ---- Step 2: to numpy ----
-    if isinstance(final_output, torch.Tensor):
-        final_output = final_output.numpy()
-    y_target = np.array(y_target)
-
-    # ---- Step 3: t-SNE ----
-    tsne = TSNE(n_components=2, perplexity=30, learning_rate=200, random_state=42)
-    tsne_result = tsne.fit_transform(final_output)
-
-    # ---- Step 4: plot ----
-    # ---- Step 4: plot ----
-    fig, ax = plt.subplots(figsize=(6, 6))  # 使用subplots方便获取ax对象
-
-    ax.scatter(
-        tsne_result[:, 0],
-        tsne_result[:, 1],
-        c=y_target,
-        s=12,
-        alpha=0.8,
-        cmap="tab10"
-    )
-
-    # ---- 去除坐标轴刻度但保留轴线 ----
-    ax.set_xticks([])  # 去除x轴刻度
-    ax.set_yticks([])  # 去除y轴刻度
-
-    # 可选：去除刻度标签
-    ax.set_xticklabels([])
-    ax.set_yticklabels([])
-
-    # ---- 设置 x/y 范围一致，保证图形正方形 ----
-    x_min, x_max = tsne_result[:, 0].min(), tsne_result[:, 0].max()
-    y_min, y_max = tsne_result[:, 1].min(), tsne_result[:, 1].max()
-    min_val = min(x_min, y_min)
-    max_val = max(x_max, y_max)
-    plt.xlim(min_val, max_val)
-    plt.ylim(min_val, max_val)
-
-    plt.xlabel("(a)", fontsize=20)
-
-    # ---- 紧凑显示 ----
-    plt.margins(0.05)
-    plt.gca().set_aspect('equal', 'box')
-    plt.tight_layout(pad=0.1)
-
-    # ---- 保存 ----
-    plt.savefig(save_path, dpi=600, bbox_inches='tight')
-    plt.close()
-
-
-
 def logging_definition(args,root):
     mdate = datetime.date.today()
     log_file_folder = f"{root}/log/model_finetuning"

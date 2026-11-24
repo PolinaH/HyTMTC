@@ -44,7 +44,7 @@ def args_definition():
 
 
 if __name__ == '__main__':
-    root = '/workspace/data1/hym/TrafficFormer'
+    root = '/workspace/data1/hym/HyTMTC'
 
     args = args_definition()
     logging = logging_definition(args, root)
